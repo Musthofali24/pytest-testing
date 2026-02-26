@@ -1,12 +1,5 @@
 # Testing Guide - White Box Testing
 
-## 📚 Dokumentasi Tambahan
-
-- **[Control Flow Graph (CFG)](docs/CFG.md)** - Panduan lengkap membuat CFG dari kode dengan contoh dan diagram Mermaid
-- **[CFG Summary](docs/CFG-SUMMARY.md)** - Ringkasan CFG untuk semua fungsi di app.py
-
----
-
 ## Quick Start
 
 ### 1. Install Dependencies
