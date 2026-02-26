@@ -48,9 +48,12 @@ class MachineMonitor:
         else:
             return "KRITIS"
 
-    def risk_detection(self, temperature, downtime):
+    def risk_detection(self, temperature, downtime, vibration):
         if temperature > 90 and self.age_years > 10 and downtime > 120:
-            return "HIGH_RISK"
+            if vibration >= 200:
+                return "HIGH_RISK"
+            else:
+                return "MEDIUM_RISK"
 
         if temperature > 80 and downtime > 60:
             return "MEDIUM_RISK"
